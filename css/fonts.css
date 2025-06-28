@@ -1,0 +1,22 @@
+@font-face {
+    font-family: 'Europa Grotesk Bold';
+    src: url('../fonts/europa-grotesk-sh-bold.otf') format('opentype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Campfire';
+    src: url('../fonts/campfire.otf') format('opentype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+
+h1, h2, h3 {
+    font-family: 'Europa Grotesk Bold', sans-serif;
+}
+
+p, a, span, button, li, label, input, textarea, div {
+    font-family: 'Campfire', sans-serif;
+}
